@@ -1,0 +1,67 @@
+/* font-family: 'Pirata One', cursive; 
+   font-family: 'Trade Winds', cursive;
+   font-family: 'Germania One', cursive;
+   font-family: 'UnifrakturCook', cursive;
+   font-family: 'Metal Mania', cursive;
+   font-family: 'Jolly Lodger', cursive;
+*/
+
+body {
+  background-image: url("/TriviaGame/assets/images/wallpaper2you_401257.jpg");
+}
+
+h1 {
+  font-family: 'Creepster', cursive;
+  color: limegreen;
+  text-align: center;
+  font-size: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.container {
+  border: 3px solid red;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: 10px;
+  height: 600px;
+  background: purple;
+}
+
+#mainArea {
+  font-family: 'Metal Mania', cursive;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+}
+
+button {
+  display: block; 
+  margin: 0 auto;
+  padding-top: 50px;
+  width: 300px;
+  height: 75px;
+  background-color: orange; 
+}
+
+button:hover {
+  background-color: lime;
+}
+
+button:active {
+  background-color: lime;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+#trivia-question {
+  font-family: 'Pirata One', cursive;
+  text-align: center;
+  color: orange;
+  font-size: 60px;
+  padding-top: 1000px;
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
